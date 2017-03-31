@@ -1,0 +1,16 @@
+
+@keyframes dropPopRibbon {
+    0% {top:0%;opacity:1;}
+    99% {top:25%;opacity:0;}
+    100% {display:none;}
+}
+
+.popover-ribbon {
+    position:absolute;
+    width:100%;
+    height:45px;
+    box-shadow:2px 2px 2px 0 rgba(0,0,0,0.5);
+    text-align:center;
+    animation-name:dropPopRibbon;
+    animation-timing-function:cubic-bezier(.65,.05,.83,.67);
+}
